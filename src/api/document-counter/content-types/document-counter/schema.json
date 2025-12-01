@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "document_counters",
+  "info": {
+    "singularName": "document-counter",
+    "pluralName": "document-counters",
+    "displayName": "Document Counter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "financialYear": {
+      "type": "integer",
+      "required": true
+    },
+    "lastNumber": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

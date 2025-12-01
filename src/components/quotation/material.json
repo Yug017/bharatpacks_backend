@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_quotation_materials",
+  "info": {
+    "displayName": "material"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "decimal"
+    },
+    "wastage": {
+      "type": "decimal"
+    },
+    "wastageValue": {
+      "type": "decimal"
+    }
+  },
+  "config": {}
+}

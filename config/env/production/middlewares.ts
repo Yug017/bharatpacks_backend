@@ -4,7 +4,7 @@ export default [
   {
     name: "strapi::cors",
     config: {
-      origin: ["https://online.bharatpacks.com/"], // frontend domain
+      origin: ["https://online.bharatpacks.com/"],  // frontend domain
       headers: "*",
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     },

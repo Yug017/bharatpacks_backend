@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_quotation_quotation_items",
+  "info": {
+    "displayName": "items"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "name": {
+      "type": "text"
+    },
+    "quantity": {
+      "type": "decimal"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "amount": {
+      "type": "decimal"
+    }
+  },
+  "config": {}
+}

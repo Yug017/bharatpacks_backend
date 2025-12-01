@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quotations",
+  "info": {
+    "singularName": "quotation",
+    "pluralName": "quotations",
+    "displayName": "Quotation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "documentNo": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "date"
+    },
+    "companyName": {
+      "type": "text"
+    },
+    "address": {
+      "type": "text"
+    },
+    "gstin": {
+      "type": "string"
+    },
+    "contactName": {
+      "type": "string"
+    },
+    "contactNo": {
+      "type": "integer"
+    },
+    "contactEmail": {
+      "type": "string"
+    },
+    "productName": {
+      "type": "string"
+    },
+    "mainCategory": {
+      "type": "string"
+    },
+    "hingeType": {
+      "type": "string"
+    },
+    "handleType": {
+      "type": "text"
+    },
+    "latchType": {
+      "type": "string"
+    },
+    "caseColorType": {
+      "type": "string"
+    },
+    "caseLength": {
+      "type": "decimal"
+    },
+    "caseWidth": {
+      "type": "decimal"
+    },
+    "caseTopHeight": {
+      "type": "decimal"
+    },
+    "caseBottomHeight": {
+      "type": "decimal"
+    },
+    "subtotal": {
+      "type": "decimal"
+    },
+    "caseQuantity": {
+      "type": "integer"
+    },
+    "grandTotal": {
+      "type": "decimal"
+    },
+    "financialYear": {
+      "type": "integer"
+    },
+    "materials": {
+      "type": "component",
+      "component": "quotation.material",
+      "repeatable": true
+    },
+    "items": {
+      "type": "component",
+      "component": "quotation.quotation-item",
+      "repeatable": true
+    },
+    "multiplier": {
+      "type": "decimal"
+    }
+  }
+}
