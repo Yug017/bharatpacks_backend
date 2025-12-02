@@ -2,16 +2,13 @@ export default [
   'strapi::logger',
   'strapi::errors',
 
-  // ✅ CORS FIX (FULL WORKING CONFIG)
   {
     name: 'strapi::cors',
     config: {
       enabled: true,
       origin: [
-        'http://localhost:3000',         // local development
-        'https://bharatpacks.com',       // your frontend domain
-        'https://www.bharatpacks.com',
-        'https://bharatpacks-frontend.onrender.com'
+        'http://localhost:3000',
+        'https://bharatpacks-frontend.netlify.app',   // ✅ correct domain
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
       headers: '*',
